@@ -1,0 +1,5 @@
+- intervalNum, intervalLetter(S, M, H, D) is on header
+- rate limit(접속량 제한)을 조심해라. IP ban 가능성. 
+429 또는 418 response를 받을 것, 그러면 종료해야 함
+GET api/v3/exchangeInfo 에서 rate limit rule을 확인
+- order count usage 를 monitor : GET api/v3/rateLimit/order
