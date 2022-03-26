@@ -80,6 +80,9 @@ def orders_chance(market_code, access_key, secret_key):
     print(json.dumps(res.json(), indent=2))
     return res
 
+# 일정 기간 동안의 시세를 가져오기(시, 고, 저, 종)
+
+
 
 # 주문하기
 # side : 'bid'(매수), 'ask'(매도) 중 하나
@@ -152,6 +155,5 @@ def run_func():
         else:
             break
 
-if __name__ == '__main__':
-    run_func()
-
+# if __name__ == '__main__':
+#     run_func()
